@@ -66,7 +66,7 @@ bool Stack::isEmpty() const {
 }
 
 void Stack::show() const {
-    for (int i = top; i >= 0; i--) {
+    for (int i = 0; i <= top; i++) {
         std::cout << arr[i] << " ";
     }
     std::cout << std::endl;

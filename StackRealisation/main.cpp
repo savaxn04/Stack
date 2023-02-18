@@ -5,7 +5,7 @@ int main() {
     st.push(6);
     st.push(60);
     st.push(40);
-    st.show(); // should output "40 60 6\n"
+    st.show(); // should output "6 60 40\n"
     st.multiPop(2);
     st.show(); // should output "6\n"
     Stack st2(st);
